@@ -3,7 +3,7 @@ const MealComponent = ({ meal }) => {
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
   return (
     <div>
-      <img href={meal.image} />
+      <img src={meal.image} alt={meal.name} />
       <p>{meal.price}</p>
       <p>{lorem}</p>
       <button>buy now</button>
