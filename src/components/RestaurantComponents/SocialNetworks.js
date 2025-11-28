@@ -24,7 +24,7 @@ const SocialNetworks = () => {
         {socialNetworks.map((socialNetwork, index) => {
           return (
             <li key={index}>
-              <a href={socialNetwork.url} target="_blank">
+              <a href={socialNetwork.url} target="_blank" rel="noreferrer">
                 <i className={socialNetwork.icon}></i>
               </a>
             </li>
